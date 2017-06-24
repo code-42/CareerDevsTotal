@@ -1,0 +1,13 @@
+    1  cd unix_day_two_assignment/
+    2  mkdir daytwo-ed
+    3  mkdir daytwo-dupre
+    4  touch daytwo-ed/myfile.txt
+    5  echo "Presto Filo Contents!" > daytwo-ed/myfile.txt 
+    6  cat daytwo-ed/myfile.txt 
+    7  cp daytwo-ed/myfile.txt daytwo-dupre/my2ndfile.txt
+    8  ll daytwo-dupre/my2ndfile.txt 
+    9  chmod 646 daytwo-dupre/my2ndfile.txt 
+   10  ll
+   11  ll daytwo-dupre/my2ndfile.txt 
+   12  vi daytwo-dupre/my2ndfile.txt 
+   13  history > ed-dupre-history.txt
